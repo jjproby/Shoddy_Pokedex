@@ -1,0 +1,100 @@
+body {
+  background-color: lightblue;
+}
+
+table, th, td {
+  border: 2px solid navy;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+tr:nth-child(even) {background-color: #64E019;}
+
+.title {
+  width: 425px;
+  border-style: solid;
+  border-color: navy;
+  background-color: lightgreen;
+  border-width: 5px;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.name {
+  font-size: 30px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.image {
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+  border-color: navy;
+  background-color: lightgreen;
+}
+
+.dex_title {
+  font-size: 24px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#Dex {
+  border-style: solid;
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: navy;
+  background-color: lightgreen;
+  border-width: 3px;
+  /*width: 60%; */
+}
+
+#Stats {
+  border-style: solid;
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: navy;
+  background-color: lightgreen;
+  border-width: 3px;
+  float: left;
+  width:49%;
+}
+
+.stats_title {
+  font-size: 24px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#Type_Eff {
+  border-style: solid;
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: navy;
+  background-color: lightgreen;
+  border-width: 3px;
+  width: 49%;
+  float: right;
+}
+
+.Type_Eff_title {
+  font-size: 24px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#secondRow {
+  width: 100%;
+  margin: auto;
+}
