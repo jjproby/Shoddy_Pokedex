@@ -66,7 +66,8 @@ tr:nth-child(even) {background-color: #64E019;}
   background-color: lightgreen;
   border-width: 3px;
   float: left;
-  width:49%;
+  width:49.5%;
+  /*padding-left: 5px; */
 }
 
 .stats_title {
@@ -83,8 +84,9 @@ tr:nth-child(even) {background-color: #64E019;}
   border-color: navy;
   background-color: lightgreen;
   border-width: 3px;
-  width: 49%;
+  width: 49.3%;
   float: right;
+  padding-left: 5px;
 }
 
 .Type_Eff_title {
@@ -97,4 +99,43 @@ tr:nth-child(even) {background-color: #64E019;}
 #secondRow {
   width: 100%;
   margin: auto;
+}
+
+#Abilities {
+ border-style: solid;
+ font-size: 18px;
+ border-radius: 10px;
+ border-color: navy;
+ background-color: lightgreen;
+ border-width: 3px;
+ float: right;
+ width: 49.3%;
+ padding-left: 5px;
+ height: 246px;
+}
+
+.Abilities_title {
+  font-size: 24px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#CompSet {
+  border-style: solid;
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: navy;
+  background-color: lightgreen;
+  border-width: 3px;
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+.CompSet_title {
+  font-size: 24px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: underline;
 }
